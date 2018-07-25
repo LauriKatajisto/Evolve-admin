@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ListworkoutsComponent } from './listworkouts/listworkouts.component';
+import { AddworkoutComponent } from './addworkout/addworkout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ListworkoutsComponent
+    ListworkoutsComponent,
+    AddworkoutComponent
   ],
   imports: [
     BrowserModule,
