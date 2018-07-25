@@ -9,7 +9,9 @@
   </ng-container>
   <ng-container matColumnDef="tags">
     <mat-header-cell *matHeaderCellDef> Tags </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{element.tags}} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <span *ngFor="let tag of element.tags">{{ tag }}&nbsp;</span>
+    </mat-cell>
   </ng-container>
 
   <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
