@@ -3,4 +3,5 @@ export class Workout {
   name: string;
   createdAt: number;
   updatedAt: number;
+  tags: Array<string>;
 }

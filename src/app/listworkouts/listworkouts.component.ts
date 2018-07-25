@@ -10,7 +10,7 @@ import { WorkoutService } from '../workout.service';
 })
 export class ListworkoutsComponent implements OnInit {
   workouts: Workout[];
-  displayedColumns: string[] = ['id', 'name'];
+  displayedColumns: string[] = ['id', 'name', 'tags'];
 
   constructor(private workoutService: WorkoutService) { }
 
